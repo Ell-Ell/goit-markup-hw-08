@@ -115,7 +115,7 @@ body {
 .feature-list .textabout {
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+  color: var(--secondary-text-color);
 }
 /*Team*/
 .team-list .title {
@@ -132,7 +132,7 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+  color: var(--secondary-text-color);
 }
 .team-list > .position,
 .portfolio-list > .position {
