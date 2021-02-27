@@ -8,6 +8,7 @@
   --footer-background-color: #2f303a;
   --button-back-color: #f5f4fa;
   --footer-link-color: rgba(255, 255, 255, 0.6);
+  --hero-background-color: #2f303a;
 }
 body {
   font-family: var(--main-font);
@@ -67,6 +68,11 @@ body {
 }
 
 /*герой*/
+.hero {
+  background-color: var(--hero-background-color);
+  text-align: center;
+}
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -79,22 +85,10 @@ body {
 
 /*кнопка в html*/
 .main-btn {
-  position: absolute;
-  width: 200px;
-  left: 700px;
-  top: 430px;
+  font-weight: 700;
   font-size: 16px;
   line-height: 3.12;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
-  font-family: inherit;
-  cursor: pointer;
-  border: 1px solid #000000;
-  box-sizing: border-box;
-  border-radius: 4px;
-
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
