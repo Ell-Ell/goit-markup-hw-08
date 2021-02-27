@@ -192,6 +192,10 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+.address-item {
+  color: var(--footer-logo-color);
+  text-decoration: none;
+}
 .logo-footer {
   color: var(--primary-white-color);
 }
