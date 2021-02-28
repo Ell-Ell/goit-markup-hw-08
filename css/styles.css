@@ -9,12 +9,13 @@
   --button-back-color: #f5f4fa;
   --footer-link-color: rgba(255, 255, 255, 0.6);
   --hero-background-color: #2f303a;
+  --body-color: #f5f4fa;
 }
 body {
   font-family: var(--main-font);
   letter-spacing: 0.03em;
   font-size: 14px;
-  background-color: var(--primary-white-color);
+  background-color: var(--body-color);
   line-height: 1.71;
   font-weight: 400;
 }
@@ -55,7 +56,7 @@ body {
 }
 
 .active {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .navigation-link:hover,
