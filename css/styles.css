@@ -188,7 +188,7 @@ body {
   letter-spacing: 0.03em;
 }
 .address-item {
-  color: var(--footer-logo-color);
+  color: var(--primary-white-color);
   text-decoration: none;
 }
 .logo-footer {
