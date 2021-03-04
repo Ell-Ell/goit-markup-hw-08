@@ -154,8 +154,13 @@ img {
 .hero {
   background-color: var(--hero-background-color);
   text-align: center;
-  padding: 200px 0;
   min-height: 600px;
+  width: 1600px;
+  padding-top: 199px;
+  padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+ 
 }
 /*заголовок*/
 .hero-title {
@@ -224,6 +229,25 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+  margin-right: 30px;
+}
+
+/*ПРО НАС!!*/
+.about{
+  padding-bottom: 94px;
+  }
+  .aboutus{
+    display: flex;
+  justify-content: space-between;
+  }
+.about.section-title{
+  margin-bottom: 50px;
+}
+.aboutus.about-item{
+  width: calc((100% - 30px * 2) / 3);
+}
+.aboutus.about-item:not(:last-child) {
+  margin-right: 30px;
 }
 /*Team*/
 .section-title {
