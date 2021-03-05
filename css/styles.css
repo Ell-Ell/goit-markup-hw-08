@@ -315,20 +315,6 @@ img {
   text-align: center;
 }
 
-.projects-list .title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--title-text-color);
-}
-
-.projects-list .textabout {
-  font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 0.03em;
-  color: var(--primary-text-color);
-}
 .filter-list .filter-btn {
   font-weight: 500;
   font-size: 16px;
@@ -380,3 +366,19 @@ img {
 .address .link:focus {
   color: var(--accent-color);
 }
+/*portfolio*/
+.projects-list .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.projects-list .textabout {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+/*NAVIGATION PORTFOLIO*/
