@@ -403,21 +403,29 @@ img {
 /*End Navigation Portfolio*/
 
 /*Projects Portfolio*/
+
+}
 .filter-portfolio {
-  padding-top: 95px;
-  padding-bottom: 50px;
+
 }
 
 .projects-list{
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 95px;
+  margin-top: -30px;
+  margin-left: -30px;
+ 
  
 }
 .projects-list > .position-port{
-flex-basis: calc(100% / 3);
+flex-basis: calc(100% /3 -30px);
+margin-top: 30px;
+margin-left: 30px;
 
 }
 .position-port{
+ 
  
 }
 .project-description{
