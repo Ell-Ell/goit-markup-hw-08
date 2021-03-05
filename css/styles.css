@@ -411,14 +411,14 @@ img {
 .projects-list{
   display: flex;
   flex-wrap: wrap;
- justify-content: space-between;
+ 
+}
+.projects-list > .position-port{
+flex-basis: calc(100% / 3);
+
 }
 .position-port{
-  flex-basis: calc((100%-60px) / 3);
-  margin-right: 30px;
-  max-width: 370px;
-  max-height: 404px;
-  margin-bottom: 30px;
+ 
 }
 .project-description{
   border: 1px solid #EEEEEE;
