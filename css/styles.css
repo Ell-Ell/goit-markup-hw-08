@@ -348,6 +348,8 @@ img {
 /*footer*/
 .footer {
   background-color: var(--footer-background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .address .link {
   color: var(--footer-link-color);
@@ -357,6 +359,14 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+.addresss-map {
+  margin-top: 20px; /*:not(:last-child) {
+  padding-bottom: 9px;*/
+}
+.addresss {
+  margin-top: 9px;
+}
+
 .address-item {
   color: var(--primary-white-color);
   text-decoration: none;
