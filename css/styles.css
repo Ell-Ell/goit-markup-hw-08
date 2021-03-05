@@ -227,7 +227,6 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
-  margin-right: 30px;
   min-width: 270px;
 }
 /*ПРО НАС!!*/
@@ -277,6 +276,7 @@ img {
 }
 .team-list-desk {
   padding: 30px;
+  width: 270;
 }
 .team.section-title {
   margin-bottom: 50px;
@@ -288,6 +288,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  margin-bottom: 60px;
 }
 
 .team-list .title {
@@ -424,6 +425,7 @@ img {
   border-top: none;
   padding-bottom: 20px;
   padding-top: 20px;
+  width: 370px;
 }
 /*.position:not(:nth-child(3n + 3)) {
   margin-right: 30px;
