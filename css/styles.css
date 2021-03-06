@@ -208,9 +208,8 @@ img {
 
 </*особенности!!!!!!*/
 .feature {
-  padding-top: 94px;
-  padding-bottom: 47px;
-  min-width: 270px;
+    padding-top: 94px;
+  padding-bottom: 94px;
 }
 .feature-list {
   display: flex;
@@ -243,14 +242,14 @@ img {
   display: flex;
   justify-content: space-between;
 }
-.about.section-title {
+/*.about.section-title {
   margin-bottom: 50px;
-}
-.aboutus.about-item {
-  width: calc((100% - 30px * 2) / 3);
+}*/
+/*.aboutus.about-item {
+  width: calc((100% - 30px * 2) / 3);*/
 }
 .aboutus.about-item:not(:last-child) {
-  margin-right: 30px;
+  margin-left: 30px;
 }
 
 /*Team*/
@@ -261,7 +260,6 @@ img {
 }
 .team-list {
   display: flex;
-  flex-wrap: wrap;
   margin-left: -30px;
 }
 .position {
@@ -279,10 +277,12 @@ img {
   line-height: 1.19;
   text-align: center;
   margin-bottom: 10px;
+  letter-spacing: 0.03em;
 }
 .team-list-desk {
-  padding: 30px;
-  width: 270;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
 }
 .team.section-title {
   margin-bottom: 50px;
@@ -297,45 +297,14 @@ img {
   margin-bottom: 60px;
 }
 
-.team-list .title {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--title-text-color);
-  margin-bottom: 10px;
-}
-
 .team-list .textabout {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
-  margin-bottom: 30px;
-}
-.team-list > .position,
-.portfolio-list > .position {
-  text-align: center;
 }
 
-.filter-list .filter-btn {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--title-text-color);
-  background-color: var(--button-back-color);
-}
-.filter-list .filter-btn:hover,
-.filter-list .filter-btn:focus {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-}
 /*footer*/
 .footer {
   background-color: var(--footer-background-color);
