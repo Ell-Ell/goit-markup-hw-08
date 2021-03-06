@@ -350,6 +350,7 @@ img {
 .filter-portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
+  background-color: var(--primary-white-color);
 }
 
 .portfolio-list {
