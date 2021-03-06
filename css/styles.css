@@ -99,6 +99,7 @@ img {
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
+  display: block;
 
   color: var(--title-text-color);
 }
@@ -124,6 +125,9 @@ img {
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .tel-link {
   margin-right: 50px;
@@ -208,7 +212,7 @@ img {
 
 </*особенности!!!!!!*/
 .feature {
-    padding-top: 94px;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 .feature-list {
@@ -247,7 +251,6 @@ img {
 }*/
 /*.aboutus.about-item {
   width: calc((100% - 30px * 2) / 3);*/
-}
 .aboutus.about-item:not(:last-child) {
   margin-left: 30px;
 }
@@ -334,7 +337,6 @@ img {
 }
 .logo-footer {
   color: var(--primary-white-color);
-  
 }
 .contacts .link:hover,
 .contacts .link:focus,
@@ -345,20 +347,18 @@ img {
 /*portfolio*/
 
 /*NAVIGATION PORTFOLIO*/
-.filter-portfolio{
+.filter-portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
 .portfolio-list {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   margin-bottom: 34px;
 }
 
-}
 .port-button {
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -370,7 +370,6 @@ img {
   border: 1px solid transparent;
   padding: 6px 22px;
   cursor: pointer;
-  
 }
 .port-button:hover,
 .port-button:focus {
@@ -385,23 +384,20 @@ img {
 
 /*Projects Portfolio*/
 
-.projects-list{
+.projects-list {
   display: flex;
   flex-wrap: wrap;
   margin-top: -30px;
   margin-left: -30px;
- 
- 
 }
-.projects-list > .position-port{
-flex-basis: calc(100% /3 -30px);
-margin-top: 30px;
-margin-left: 30px;
+.projects-list > .position-port {
+  flex-basis: calc(100% / 3 -30px);
+  margin-top: 30px;
+  margin-left: 30px;
+}
 
-} 
-}
-.project-description{
-  border: 1px solid #EEEEEE;
+.project-description {
+  border: 1px solid #eeeeee;
   border-top: none;
   padding: 20px 24px;
 }
@@ -412,26 +408,24 @@ margin-left: 30px;
 .position:not(:nth-last-child(-n + 3)) {
   margin-bottom: 30px;
 }*/
-.position:nth-child(3n) {
+/*.position:nth-child(3n) {
   margin-right: 0;
 }
 
 .position:nth-last-child(-n + 3) {
   margin-bottom: 0;
-}
+}*/
 
-.title-project{
+.title-project {
   margin-bottom: 4px;
-  padding-left: 24px;
-  padding-right: 24px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color:var(--title-text-color);
+  color: var(--title-text-color);
 }
-.proj-textabout{
-  padding-left: 24px ;
+.proj-textabout {
+  padding-left: 24px;
   padding-right: 24px;
   font-size: 16px;
   line-height: 2.25;
