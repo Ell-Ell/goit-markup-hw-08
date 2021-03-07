@@ -330,6 +330,15 @@ img {
 }
 .logo-footer {
   color: var(--primary-white-color);
+}
+.logo-fut {
+  color: var(--accent-color);
+  font-family: var(--secondery-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
   margin-bottom: 20px;
   display: block;
 }
