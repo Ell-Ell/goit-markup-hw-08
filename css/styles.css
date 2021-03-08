@@ -169,11 +169,11 @@ img {
   max-width: 1600px;
   outline: 1px solid black;
   background-image: linear-gradient(
-    to right,
-    rgba(47, 48, 58, 0.8),
-    rgba(47, 48, 58, 0.8)
-  );
-  background-image: url('../images/herofon.jpg');
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url('../images/herofon.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
