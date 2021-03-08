@@ -158,17 +158,23 @@ img {
 }
 
 /*герой*/
-.hero-overlay {
+.hero {
   background-color: var(--hero-background-color);
+
   text-align: center;
-  min-height: 600px;
+
   padding-top: 200px;
   padding-bottom: 200px;
   margin: 0 auto;
+}
+
+.overlay {
   max-width: 1600px;
-  outline: 1px solid black;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
   background-image: linear-gradient(
-      to right,
+      to bottom,
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
