@@ -263,7 +263,7 @@ img {
 /*Team*/
 .team {
   padding-top: 94px;
-  padding-bottom: 94px;
+  padding-bottom: 97px;
   background-color: var(--button-back-color);
 }
 .team-list {
@@ -312,7 +312,23 @@ img {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
+/*Постоянные клиенты*/
+.our-client {
+  display: flex;
+  margin-bottom: 91px;
+  background-color: var(--body-color);
+}
+.client-title {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 
+  color: var(--title-text-color);
+}
 /*footer*/
 .footer {
   background-color: var(--footer-background-color);
