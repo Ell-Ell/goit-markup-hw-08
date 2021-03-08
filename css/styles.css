@@ -158,16 +158,22 @@ img {
 }
 
 /*герой*/
-.hero {
+.hero-overlay {
   background-color: var(--hero-background-color);
   text-align: center;
   min-height: 600px;
-  width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  max-width: 1600px;
+  outline: 1px solid black;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4));
+  background-image: url('../images/herofon.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /*заголовок*/
@@ -207,6 +213,7 @@ img {
 .main-btn:focus {
   background-color: var(--footer-background-color);
 }
+
 /*main*/
 /*конец хедера!!!!!/
 
