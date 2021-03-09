@@ -384,9 +384,7 @@ img {
 .address .link:focus {
   color: var(--accent-color);
 }
-.social-links {
-  padding-top: 48px;
-}
+
 .join-us {
   font-weight: 700;
   display: block;
