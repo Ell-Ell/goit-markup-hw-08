@@ -341,6 +341,13 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.footer .container {
+  display: flex;
+  align-items: baseline;
+}
+.footer-address {
+  margin-right: 70px;
+}
 .address .link {
   color: var(--footer-link-color);
 }
@@ -350,11 +357,9 @@ img {
   letter-spacing: 0.03em;
   font-size: 14px;
 }
-
 .addresss {
   margin-top: 9px;
 }
-
 .address-item {
   color: var(--primary-white-color);
   text-decoration: none;
@@ -378,6 +383,19 @@ img {
 .address .link:hover,
 .address .link:focus {
   color: var(--accent-color);
+}
+.social-links {
+  padding-top: 48px;
+}
+.join-us {
+  font-weight: 700;
+  display: block;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: var(--primary-white-color);
+  font-style: bold;
 }
 /*portfolio*/
 
@@ -434,7 +452,6 @@ img {
   margin-left: -30px;
 }
 .projects-list .position-port {
-  /*flex-basis: calc((100% - 90px) / 3);*/
   flex-basis: calc(100% / 3 - 30px);
   margin-top: 30px;
   margin-left: 30px;
