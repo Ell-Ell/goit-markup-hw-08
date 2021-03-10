@@ -136,6 +136,19 @@ img {
 .contacts .link {
   color: var(--secondary-text-color);
 }
+.contacts.address-item {
+  display: inline-flex;
+  align-items: center;
+}
+.header-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.address-item:hover .header-icon,
+.address-item:focus .header-icon {
+  color: var(--accent-color);
+}
 /*Лого*/
 .header .logo {
   display: block;
