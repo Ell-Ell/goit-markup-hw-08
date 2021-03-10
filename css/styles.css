@@ -136,7 +136,7 @@ img {
 .contacts .link {
   color: var(--secondary-text-color);
 }
-.contacts.address-item {
+.contacts .address-item {
   display: inline-flex;
   align-items: center;
 }
