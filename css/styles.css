@@ -409,11 +409,14 @@ img {
   color: var(--primary-white-color);
   font-style: bold;
 }
-.footer .social-icon {
+.footer-address {
+  margin-right: 70px;
+}
+/*.footer .social-icon {
   display: flex;
   justify-content: center;
   align-content: center;
-}
+}*/
 .social-icon:not(:last-child) {
   margin-right: 10px;
 }
@@ -427,6 +430,8 @@ img {
   color: var(--primary-white-color);
 }
 .icon-network {
+  display: flex;
+
   fill: var(--primary-white-color);
 }
 /*END FOOTER!!*/
