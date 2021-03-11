@@ -340,12 +340,12 @@ img {
   color: var(--secondary-text-color);
 }
 /*Постоянные клиенты*/
-.our-client {
+.regular-clients {
   display: flex;
   margin-bottom: 91px;
   background-color: var(--body-color);
 }
-.client-title {
+.clients-title {
   font-family: var(--main-font);
   font-style: normal;
   font-weight: 700;
