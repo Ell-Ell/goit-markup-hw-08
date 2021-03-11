@@ -340,7 +340,7 @@ img {
   color: var(--secondary-text-color);
 }
 .icon-network-team {
-  fill: #afb1b8;
+  fill: currentColor;
 }
 .team-list-desk .social-icon-network:hover,
 .team-list-desk .social-icon-network:focus {
@@ -467,7 +467,7 @@ img {
 }
 .web-social-icon {
   display: flex;
-  align-content: center;
+  justify-content: center;
 }
 .social-icon-network {
   display: inline-flex;
