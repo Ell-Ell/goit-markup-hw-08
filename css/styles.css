@@ -339,6 +339,18 @@ img {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
+.icon-network-team {
+  fill: #afb1b8;
+}
+.team-list-desk .social-icon-network:hover,
+.team-list-desk .social-icon-network:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+/*.social-icon-network:hover .icon-network-team,
+.social-icon-network:focus .icon-network-team {
+  fill: currentColor;
+}*/
 /*Постоянные клиенты*/
 .regular-clients {
   display: flex;
@@ -453,9 +465,8 @@ img {
 .footer-address {
   margin-right: 70px;
 }
-.footer-social-icon {
+.web-social-icon {
   display: flex;
-  /*justify-content: center;*/
   align-content: center;
 }
 .social-icon-network {
