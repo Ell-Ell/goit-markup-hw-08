@@ -69,8 +69,7 @@ img {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-  
-}
+  }
 
 /*HEADER!!*/
 .header {
@@ -391,7 +390,6 @@ background-color: rgba(47, 48, 58, 0.8);
   margin-bottom: 30px;
 }
 
-
 /*Постоянные клиенты*/
 .regular-clients {
   display: flex;
@@ -442,7 +440,7 @@ background-color: rgba(47, 48, 58, 0.8);
   border-color: var(--accent-color);
   color: var(--accent-color);
 }
-/*footer*/
+/*Footer*/
 .footer {
   background-color: var(--footer-background-color);
   padding-top: 60px;
@@ -539,6 +537,7 @@ background-color: rgba(47, 48, 58, 0.8);
   fill: var(--primary-white-color);
 }
 /*END FOOTER!!*/
+
 /*portfolio*/
 
 /*NAVIGATION PORTFOLIO*/
@@ -575,18 +574,14 @@ background-color: rgba(47, 48, 58, 0.8);
 .port-button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   cursor: pointer;
 }
 .portfolio-item:not(:last-child) {
   margin-right: 8px;
 }
-/*(тень при наведении для кнопок*/
-.portfolio-item:hover,
-.portfolio-item:focus {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  cursor: pointer;
-}
+
 /*End nav Portfolio*/
 
 /*Projects Portfolio*/
