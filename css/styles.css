@@ -683,6 +683,9 @@ opacity: 0;
 
 .modal-close-btn {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   top: 8px;
   right: 8px;
   width: 30px;
@@ -700,4 +703,6 @@ opacity: 0;
 }
 .modal-close-icon{
   fill: currentColor;
+  width: 18px;
+  height: 18px;
 }
