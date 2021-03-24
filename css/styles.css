@@ -736,7 +736,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 20px;
-
   color: var(--primary-white-color);
 }
 .describe-button {
@@ -762,4 +761,5 @@ img {
 .describe-icon {
   position: absolute;
   fill: var(--primary-white-color);
+  right: 10px;
 }
