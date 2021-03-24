@@ -393,12 +393,11 @@
                     <use href="./images/sprite.svg#icon-send"></use>
                 </svg>
             </button>
-                
-        </form>
-        </div>
-
+                </form>
+            </div>
         </div>
     </footer>
+    <!--Модалочка-->
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal-close-btn" data-modal-close>
@@ -406,6 +405,21 @@
                 <use href="./images/sprite.svg#close-black"></use>
             </svg>
             </button>
+            <!--Modal-form-->
+            <b class="form-title">Оставьте свои данные, мы вам перезвоним</b>
+            <form action="#" class="modal-form" autocomplete="off">
+            <label  class="modal-form-field" 
+            >Имя
+        <input class="modal-form-input" name="user-name" type="text">
+        </label>
+     <label class="modal-form-field">Телефон
+        <input class="modal-form-input" name="user-phone" type="tel">
+        </label>
+        <label class="modal-form-field">Почта
+        <input class="modal-form-input" name="user-email" type="email">
+    </label>
+
+            </form>
         </div>
     </div>
     <script src="./js/modal.js"></script>

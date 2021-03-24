@@ -759,3 +759,30 @@ img {
   fill: var(--primary-white-color);
   margin-left: 10px;
 }
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-title {
+  display: block;
+  margin: 40px 40px 12px;
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.modal-form-field {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: var(--secondary-text-color);
+}
