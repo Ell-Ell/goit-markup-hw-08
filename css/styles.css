@@ -532,6 +532,61 @@ img {
 .icon-network {
   fill: var(--primary-white-color);
 }
+.describe {
+  display: flex;
+}
+.describe-us {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding-left: 16px;
+  padding-top: 18px;
+  padding-bottom: 12px;
+  margin-right: 12px;
+  min-width: 358px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.describe-form {
+  margin-top: 72px;
+  margin-bottom: 94px;
+  margin-left: auto;
+}
+.describe-title {
+  display: block;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: var(--primary-white-color);
+}
+.describe-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.describe-icon {
+  fill: var(--primary-white-color);
+  margin-left: 10px;
+}
 /*END FOOTER!!*/
 
 /*portfolio*/
@@ -676,6 +731,7 @@ img {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+  padding: 40px;
 }
 
 .modal-close-btn {
@@ -704,69 +760,15 @@ img {
   width: 18px;
   height: 18px;
 }
-.describe {
-  display: flex;
-}
-.describe-us {
-  display: flex;
-  align-items: center;
-  height: 50px;
-  padding-left: 16px;
-  padding-top: 18px;
-  padding-bottom: 12px;
-  margin-right: 12px;
-  min-width: 358px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
-  background-color: transparent;
-}
 
-.describe-form {
-  margin-top: 72px;
-  margin-bottom: 94px;
-  margin-left: auto;
-}
-.describe-title {
-  display: block;
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  color: var(--primary-white-color);
-}
-.describe-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 200px;
-  height: 50px;
-  font-family: var(--main-font);
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  cursor: pointer;
-}
-.describe-icon {
-  fill: var(--primary-white-color);
-  margin-left: 10px;
-}
 .modal-form {
   display: flex;
   flex-direction: column;
 }
 
 .form-title {
-  display: block;
-  margin: 40px 40px 12px;
+  /* display: block;
+  margin: 40px 40px 12px;*/
   font-family: var(--main-font);
   font-style: normal;
   font-weight: 700;
@@ -785,4 +787,23 @@ img {
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: var(--secondary-text-color);
+}
+.modal-form-input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding-left: 42px;
+  transition: border-color 250ms linear;
+}
+.modal-form-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
+  left: 12px;
+}
+.modal-form-filling {
+  position: relative;
+  display: block;
 }
