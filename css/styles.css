@@ -868,7 +868,7 @@ img {
   border-color: var(--accent-color);
 }
 .modal-form-term:focus + .modal-form-check-text::before {
-  outline: none;
+  border-color: var(--accent-color);
   background-color: var(--accent-color);
   background-image: url('../images/check-white.svg');
   background-position: center;
