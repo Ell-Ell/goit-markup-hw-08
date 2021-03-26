@@ -869,6 +869,9 @@ img {
 }
 .modal-form-term:focus + .modal-form-check-text::before {
   outline: none;
+  background-color: var(--accent-color);
+  background-image: url('../images/check-white.svg');
+  background-position: center;
 }
 .modal-check-link {
   color: var(--accent-color);
