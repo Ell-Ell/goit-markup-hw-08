@@ -753,9 +753,9 @@ img {
   border-radius: 50%;
   cursor: pointer;
 }
-.modal-close-btn:hover,
-.modal-close-btn:focus {
-  background-color: var(--accent-color);
+.modal-close-icon:hover,
+.modal-close-icon:focus {
+  fill: var(--accent-color);
   transition: var(--timing-funktion);
 }
 
