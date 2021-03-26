@@ -249,7 +249,7 @@ img {
 
 .main-btn:hover,
 .main-btn:focus {
-  background-color: var(--footer-background-color);
+  background-color: #188ce8;
 }
 
 /*main*/
@@ -559,8 +559,6 @@ img {
 }
 
 .describe-form {
-  margin-top: 72px;
-  margin-bottom: 94px;
   margin-left: auto;
 }
 .describe-title {
@@ -754,6 +752,11 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
+}
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+  background-color: var(--accent-color);
+  transition: var(--timing-funktion);
 }
 
 .is-hidden {
