@@ -851,6 +851,7 @@ img {
   height: 16px;
   border: 1px solid #212121;
   margin-right: 8px;
+  cursor: pointer;
 }
 .modal-form-check-text {
   display: flex;
@@ -868,10 +869,7 @@ img {
   border-color: var(--accent-color);
 }
 .modal-form-term:focus + .modal-form-check-text::before {
-  border-color: var(--accent-color);
-  background-color: var(--accent-color);
-  background-image: url('../images/check-white.svg');
-  background-position: center;
+  box-shadow: 0 0 0 2px var(--accent-color);
 }
 .modal-check-link {
   color: var(--accent-color);
