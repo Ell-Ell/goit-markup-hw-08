@@ -1,0 +1,31 @@
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.navigation-list {
+  display: flex;
+  align-items: center;
+}
+.navigation-link {
+  position: relative;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  display: block;
+  transition: color var(--timing-funktion);
+  color: var(--title-text-color);
+}
+.active {
+  color: var(--accent-color);
+}
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--accent-color);
+}
+
+.navigation-item:not(:last-child) {
+  margin-right: 50px;
+}
