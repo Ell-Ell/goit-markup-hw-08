@@ -6,7 +6,7 @@
   display: flex;
   align-items: center;
 }
-.navigation-link {
+.navigation__link {
   position: relative;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -26,6 +26,6 @@
   color: var(--accent-color);
 }
 
-.navigation-item:not(:last-child) {
+.navigation__item:not(:last-child) {
   margin-right: 50px;
 }

@@ -94,18 +94,6 @@ img {
   border-radius: 2px;
 }
 
-.header .contacts-item {
-  position: relative;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-  color: var(--secondary-text-color);
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
 .header .container {
   display: flex;
   align-items: center;
@@ -122,7 +110,7 @@ img {
   align-items: center;
 }
 
-.navigation-link {
+.navigation__link {
   position: relative;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -135,7 +123,7 @@ img {
   color: var(--title-text-color);
 }
 
-.navigation-link:hover, .navigation-link:focus {
+.navigation__link:hover, .navigation__link:focus {
   color: var(--accent-color);
 }
 
@@ -143,7 +131,7 @@ img {
   color: var(--accent-color);
 }
 
-.navigation-item:not(:last-child) {
+.navigation__item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -152,7 +140,7 @@ img {
   display: flex;
 }
 
-.contacts .contacts-item {
+.contacts .contacts__item {
   display: inline-flex;
   align-items: center;
   transition: color var(--timing-funktion);
@@ -173,19 +161,27 @@ img {
   margin-right: 50px;
 }
 
-.contacts-icon {
+.contacts__icon {
   margin-right: 10px;
   fill: currentColor;
   transition: color var(--timing-funktion);
 }
 
-.contacts-item:hover .contacts-icon,
-.contacts-item:focus .contacts-icon {
+.contacts__item:hover .contacts__icon,
+.contacts__item:focus .contacts__icon {
   color: var(--accent-color);
 }
 
-.contacts-item {
-  color: var(--primary-white-color);
+.contacts__item {
+  position: relative;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   text-decoration: none;
 }
 

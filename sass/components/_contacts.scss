@@ -1,7 +1,7 @@
 .contacts {
   margin-left: auto;
   display: flex;
-  .contacts-item {
+  .contacts__item {
     display: inline-flex;
     align-items: center;
     transition: color var(--timing-funktion);
@@ -22,17 +22,24 @@
   margin-right: 50px;
 }
 
-.contacts-icon {
+.contacts__icon {
   margin-right: 10px;
   fill: currentColor;
   transition: color var(--timing-funktion);
-  .contacts-item:hover &,
-  .contacts-item:focus & {
+  .contacts__item:hover &,
+  .contacts__item:focus & {
     color: var(--accent-color);
   }
 }
-
-.contacts-item {
-  color: var(--primary-white-color);
+.contacts__item {
+  position: relative;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   text-decoration: none;
 }
