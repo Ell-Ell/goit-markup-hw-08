@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
 }
-.social-icon-network {
+.social__network {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -12,8 +12,8 @@
   color: #afb1b8;
   transition: color var(--timing-funktion),
     background-color var(--timing-funktion);
-  .team-list-desk &:hover,
-  .team-list-desk &:focus {
+  .team__deskription &:hover,
+  .team__deskription &:focus {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
   }
@@ -27,11 +27,11 @@
   }
 }
 
-.social-icon {
+.social__icon {
   &:not(:last-child) {
     margin-right: 10px;
   }
 }
-.icon-network {
+.web__icon {
   fill: var(--primary-white-color);
 }

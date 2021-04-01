@@ -1,7 +1,7 @@
 .describe {
   display: flex;
 }
-.describe-us {
+.describe__us {
   display: flex;
   align-items: center;
   height: 50px;
@@ -27,7 +27,7 @@
 .describe-form {
   margin-left: auto;
 }
-.describe-title {
+.describe__titlee {
   display: block;
   font-style: normal;
   font-size: 14px;
@@ -55,7 +55,7 @@
   border-radius: 4px;
   cursor: pointer;
 }
-.describe-icon {
+.describe__icon {
   fill: var(--primary-white-color);
   margin-left: 10px;
 }

@@ -1,4 +1,4 @@
-.modal-close-icon {
+.modal-close__icon {
   fill: currentColor;
   width: 18px;
   height: 18px;
@@ -14,7 +14,7 @@
   flex-direction: column;
 }
 
-.form-title {
+.form__title {
   font-family: var(--main-font);
   font-style: normal;
   font-weight: 700;
@@ -36,7 +36,7 @@
   color: var(--secondary-text-color);
   margin-bottom: 10px;
 }
-.modal-form-input {
+.modal-form__input {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -50,7 +50,7 @@
   }
 }
 
-.modal-form-icon {
+.modal-form__icon {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -61,7 +61,7 @@
     fill: var(--accent-color);
   }
 }
-.modal-form-filling {
+.modal-form__filling {
   position: relative;
   display: block;
   margin-top: 4px;

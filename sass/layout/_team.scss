@@ -9,7 +9,7 @@
     margin-bottom: 30px;
   }
 }
-.team-list {
+.team__list {
   display: flex;
   margin-left: -30px;
   .title {
@@ -21,7 +21,7 @@
     margin-bottom: 10px;
     letter-spacing: 0.03em;
   }
-  .textabout {
+  .team__textabout {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -30,7 +30,7 @@
     margin-bottom: 20px;
   }
 }
-.team-position {
+.team__position {
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -39,11 +39,11 @@
   background-color: var(--primary-white-color);
 }
 
-.team-list-desk {
+.team__deskription {
   padding: 30px 32px;
   text-align: center;
 }
 
-.icon-network-team {
+.web__icon {
   fill: currentColor;
 }

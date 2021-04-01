@@ -6,7 +6,8 @@
     display: flex;
     align-items: baseline;
   }
-  .address-item {
+
+  .address__item {
     color: #ffffff;
   }
 }
@@ -24,7 +25,7 @@
     transition: color var(--timing-funktion);
   }
 }
-.address-contact {
+.address__contact {
   margin-top: 9px;
   .link:hover,
   .link:focus {
@@ -32,12 +33,8 @@
   }
 }
 
-.logo-footer {
-  color: var(--primary-white-color);
-}
-
 .address-map {
-  .address-item {
+  .address__item {
     color: #ffffff;
   }
 }

@@ -5,6 +5,17 @@
 .feature-list {
   display: flex;
 
+  .feature__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    background-color: var(--button-back-color);
+  }
+
   .title {
     margin-bottom: 10px;
     font-weight: 700;
@@ -21,19 +32,9 @@
     color: var(--secondary-text-color);
     min-width: 270px;
   }
-  .feature-item-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 270px;
-    height: 120px;
-    border-radius: 4px;
-    margin-bottom: 30px;
-    background-color: var(--button-back-color);
-  }
 }
 
-.feature-item {
+.feature__item {
   &:not(:last-child) {
     margin-right: 30px;
   }

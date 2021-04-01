@@ -8,4 +8,16 @@
   text-decoration: none;
   display: block;
   padding-bottom: 20px;
+  .header & {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    margin-right: 92px;
+  }
+}
+.logo__footer {
+  color: var(--primary-white-color);
+}
+.logo__header {
+  color: #000000;
 }
