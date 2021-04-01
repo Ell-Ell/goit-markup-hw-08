@@ -6,11 +6,11 @@
   justify-content: space-between;
 }
 
-.aboutus.about-item:not(:last-child) {
-  margin-left: 30px;
-}
 .about-item {
   position: relative;
+  .aboutus &:not(:last-child) {
+    margin-left: 30px;
+  }
 }
 .aboutus-list {
   font-weight: 700;

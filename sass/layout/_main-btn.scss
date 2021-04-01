@@ -16,9 +16,8 @@
   cursor: pointer;
   transition-property: var(--primary-white-color);
   transition: var(--timing-funktion);
-}
-
-.main-btn:hover,
-.main-btn:focus {
-  background-color: #188ce8;
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
 }

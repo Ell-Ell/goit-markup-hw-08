@@ -1,37 +1,38 @@
 .contacts {
   margin-left: auto;
   display: flex;
+  .contacts-item {
+    display: inline-flex;
+    align-items: center;
+    transition: color var(--timing-funktion);
+  }
+
+  .link:hover,
+  .link:focus,
+  .link:hover,
+  .link:focus {
+    color: var(--accent-color);
+  }
+  .link {
+    color: var(--secondary-text-color);
+  }
 }
-.header .address-item {
-  position: relative;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-  color: var(--secondary-text-color);
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
+
 .tel-link {
   margin-right: 50px;
 }
 
-.contacts .link {
-  color: var(--secondary-text-color);
-}
-.contacts .address-item {
-  display: inline-flex;
-  align-items: center;
-  transition: color var(--timing-funktion);
-}
-.header-icon {
+.contacts-icon {
   margin-right: 10px;
   fill: currentColor;
   transition: color var(--timing-funktion);
+  .contacts-item:hover &,
+  .contacts-item:focus & {
+    color: var(--accent-color);
+  }
 }
 
-.address-item:hover .header-icon,
-.address-item:focus .header-icon {
-  color: var(--accent-color);
+.contacts-item {
+  color: var(--primary-white-color);
+  text-decoration: none;
 }

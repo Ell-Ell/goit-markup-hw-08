@@ -17,12 +17,12 @@
   display: block;
   transition: color var(--timing-funktion);
   color: var(--title-text-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 .active {
-  color: var(--accent-color);
-}
-.navigation-link:hover,
-.navigation-link:focus {
   color: var(--accent-color);
 }
 

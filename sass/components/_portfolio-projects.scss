@@ -3,11 +3,11 @@
   flex-wrap: wrap;
   margin-top: -30px;
   margin-left: -30px;
-}
-.projects-list .position-port {
-  flex-basis: calc(100% / 3 - 30px);
-  margin-top: 30px;
-  margin-left: 30px;
+  .position-port {
+    flex-basis: calc(100% / 3 - 30px);
+    margin-top: 30px;
+    margin-left: 30px;
+  }
 }
 
 .project-description {
@@ -35,12 +35,13 @@
 .project-link {
   display: block;
   transition: box-shadow var(--timing-funktion);
+  &:hover,
+  &:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
 }
-.project-link:hover,
-.project-link:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+
 .project-list-text {
   position: relative;
   overflow: hidden;
@@ -60,10 +61,9 @@
   transform: translateY(100%);
   transition: var(--timing-funktion), opacity var(--timing-funktion);
   opacity: 0;
-}
-
-.project-link:hover .overlay-list-text,
-.project-link:focus .overlay-list-text {
-  transform: translateY(-100%);
-  opacity: 1;
+  .project-link:hover &,
+  .project-link:focus & {
+    transform: translateY(-100%);
+    opacity: 1;
+  }
 }

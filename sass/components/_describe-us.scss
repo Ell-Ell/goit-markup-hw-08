@@ -16,12 +16,12 @@
   background-color: transparent;
   color: var(--primary-white-color);
   outline: none;
-}
-.describe-us::placeholder {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+  }
 }
 
 .describe-form {
@@ -58,4 +58,14 @@
 .describe-icon {
   fill: var(--primary-white-color);
   margin-left: 10px;
+}
+.join-us {
+  font-weight: 700;
+  display: block;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: var(--primary-white-color);
+  font-style: bold;
 }

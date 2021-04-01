@@ -12,19 +12,25 @@
   color: #afb1b8;
   transition: color var(--timing-funktion),
     background-color var(--timing-funktion);
+  .team-list-desk &:hover,
+  .team-list-desk &:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+  }
+  .social-links &:hover,
+  .social-links &:focus {
+    background-color: var(--accent-color);
+  }
+  .social-links & {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--primary-white-color);
+  }
 }
 
-.social-icon:not(:last-child) {
-  margin-right: 10px;
-}
-.social-links .social-icon-network:hover,
-.social-links .social-icon-network:focus {
-  background-color: var(--accent-color);
-}
-
-.social-links .social-icon-network {
-  background-color: rgba(255, 255, 255, 0.1);
-  color: var(--primary-white-color);
+.social-icon {
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 .icon-network {
   fill: var(--primary-white-color);

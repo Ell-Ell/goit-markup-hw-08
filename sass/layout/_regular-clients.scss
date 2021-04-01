@@ -37,12 +37,12 @@
   border: 1px solid #afb1b8;
   border-radius: 4px;
   transition: color var(--timing-funktion), border-color var(--timing-funktion);
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+  }
 }
 .logo-client {
   fill: currentColor;
-}
-.clients-list:hover,
-.clients-list:focus {
-  border-color: var(--accent-color);
-  color: var(--accent-color);
 }
