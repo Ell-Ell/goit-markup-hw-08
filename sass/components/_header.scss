@@ -14,10 +14,14 @@
     background: var(--accent-color);
     border-radius: 2px;
   }
-
-  .container {
-    display: flex;
-    align-items: center;
-    min-height: 80px;
-  }
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }

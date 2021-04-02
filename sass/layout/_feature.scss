@@ -2,10 +2,10 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.feature-list {
+.feature__list {
   display: flex;
 
-  .feature__icon {
+  .feature__icons {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,7 +25,7 @@
     text-transform: uppercase;
     color: var(--title-text-color);
   }
-  .textabout {
+  .feature__textabout {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;

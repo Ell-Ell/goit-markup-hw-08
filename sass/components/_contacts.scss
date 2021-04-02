@@ -1,7 +1,7 @@
-.contacts {
+.contacts__list {
   margin-left: auto;
   display: flex;
-  .contacts__item {
+  .contacts__link {
     display: inline-flex;
     align-items: center;
     transition: color var(--timing-funktion);
@@ -18,7 +18,7 @@
   }
 }
 
-.tel-link {
+.contacts-tel__item {
   margin-right: 50px;
 }
 
@@ -26,12 +26,12 @@
   margin-right: 10px;
   fill: currentColor;
   transition: color var(--timing-funktion);
-  .contacts__item:hover &,
-  .contacts__item:focus & {
+  .contacts__link:hover &,
+  .contacts__link:focus & {
     color: var(--accent-color);
   }
 }
-.contacts__item {
+.contacts__link {
   position: relative;
   font-weight: 500;
   font-size: 14px;

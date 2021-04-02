@@ -1,8 +1,8 @@
-.web-social-icon {
+.web-social-icon__list {
   display: flex;
   justify-content: center;
 }
-.social__network {
+.social__link {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -17,21 +17,21 @@
     background-color: var(--accent-color);
     color: var(--primary-white-color);
   }
-  .social-links &:hover,
-  .social-links &:focus {
+  .footer__social-links &:hover,
+  .footer__social-links &:focus {
     background-color: var(--accent-color);
   }
-  .social-links & {
+  .footer__social-links & {
     background-color: rgba(255, 255, 255, 0.1);
     color: var(--primary-white-color);
   }
 }
 
-.social__icon {
+.web-social-icon__item {
   &:not(:last-child) {
     margin-right: 10px;
   }
 }
-.web__icon {
+.web-social-icon__pict {
   fill: var(--primary-white-color);
 }

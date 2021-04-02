@@ -5,13 +5,15 @@
   .section-title {
     margin-bottom: 50px;
   }
-  .web-social-icon {
+  .web-social-icon__list {
+    display: flex;
     margin-bottom: 30px;
   }
 }
 .team__list {
   display: flex;
   margin-left: -30px;
+
   .title {
     font-weight: 500;
     color: var(--title-text-color);
@@ -21,7 +23,7 @@
     margin-bottom: 10px;
     letter-spacing: 0.03em;
   }
-  .team__textabout {
+  .team__position {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -30,7 +32,7 @@
     margin-bottom: 20px;
   }
 }
-.team__position {
+.team__item {
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -44,6 +46,6 @@
   text-align: center;
 }
 
-.web__icon {
+.web-social-icon__pict {
   fill: currentColor;
 }
