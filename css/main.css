@@ -561,6 +561,10 @@ img {
   margin-left: 30px;
 }
 
+.about .about__item:not(:last-child) {
+  margin-left: 30px;
+}
+
 .about__text {
   font-weight: 700;
   position: absolute;
