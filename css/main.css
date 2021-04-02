@@ -558,7 +558,6 @@ img {
 
 .about__item {
   position: relative;
-  margin-left: 30px;
 }
 
 .about .about__item:not(:last-child) {
