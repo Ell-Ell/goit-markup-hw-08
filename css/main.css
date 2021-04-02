@@ -95,8 +95,6 @@ img {
 }
 
 .header__container {
-  display: flex;
-  align-items: center;
   min-height: 80px;
   display: flex;
   align-items: center;
