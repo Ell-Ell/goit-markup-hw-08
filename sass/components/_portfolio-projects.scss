@@ -1,22 +1,22 @@
-.projects-list {
+.projects__list {
   display: flex;
   flex-wrap: wrap;
   margin-top: -30px;
   margin-left: -30px;
-  .position-port {
+  .projects__item {
     flex-basis: calc(100% / 3 - 30px);
     margin-top: 30px;
     margin-left: 30px;
   }
 }
 
-.project-description {
+.projects__box {
   border: 1px solid #eeeeee;
   border-top: none;
   padding: 20px 24px;
 }
 
-.title-project {
+.projects__title {
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
@@ -24,7 +24,7 @@
   letter-spacing: 0.06em;
   color: var(--title-text-color);
 }
-.proj-textabout {
+.projects__textabout {
   padding-left: 24px;
   padding-right: 24px;
   font-size: 16px;
@@ -32,7 +32,7 @@
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
-.project-link {
+.projects__link {
   display: block;
   transition: box-shadow var(--timing-funktion);
   &:hover,
@@ -42,11 +42,11 @@
   }
 }
 
-.project-list-text {
+.projects__thumb {
   position: relative;
   overflow: hidden;
 }
-.overlay-list-text {
+.projects__overlay {
   position: absolute;
   font-style: normal;
   font-weight: normal;
@@ -61,8 +61,8 @@
   transform: translateY(100%);
   transition: var(--timing-funktion), opacity var(--timing-funktion);
   opacity: 0;
-  .project-link:hover &,
-  .project-link:focus & {
+  .projects__link:hover &,
+  .projects__link:focus & {
     transform: translateY(-100%);
     opacity: 1;
   }

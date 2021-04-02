@@ -4,13 +4,13 @@
   background-color: var(--primary-white-color);
 }
 
-.portfolio-list {
+.filter-portfolio__list {
   display: flex;
   justify-content: center;
   margin-bottom: 34px;
 }
 
-.port-button {
+.filter-portfolio__button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -35,7 +35,7 @@
   }
 }
 
-.portfolio-item {
+.filter-portfolio__item {
   &:not(:last-child) {
     margin-right: 8px;
   }

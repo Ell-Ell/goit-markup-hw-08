@@ -397,13 +397,13 @@ img {
   background-color: var(--primary-white-color);
 }
 
-.portfolio-list {
+.filter-portfolio__list {
   display: flex;
   justify-content: center;
   margin-bottom: 34px;
 }
 
-.port-button {
+.filter-portfolio__button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -418,37 +418,37 @@ img {
   transition: color var(--timing-funktion), background-color var(--timing-funktion), box-shadow var(--timing-funktion);
 }
 
-.port-button:hover, .port-button:focus {
+.filter-portfolio__button:hover, .filter-portfolio__button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   cursor: pointer;
 }
 
-.portfolio-item:not(:last-child) {
+.filter-portfolio__item:not(:last-child) {
   margin-right: 8px;
 }
 
-.projects-list {
+.projects__list {
   display: flex;
   flex-wrap: wrap;
   margin-top: -30px;
   margin-left: -30px;
 }
 
-.projects-list .position-port {
+.projects__list .projects__item {
   flex-basis: calc(100% / 3 - 30px);
   margin-top: 30px;
   margin-left: 30px;
 }
 
-.project-description {
+.projects__box {
   border: 1px solid #eeeeee;
   border-top: none;
   padding: 20px 24px;
 }
 
-.title-project {
+.projects__title {
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
@@ -457,7 +457,7 @@ img {
   color: var(--title-text-color);
 }
 
-.proj-textabout {
+.projects__textabout {
   padding-left: 24px;
   padding-right: 24px;
   font-size: 16px;
@@ -466,21 +466,21 @@ img {
   color: var(--secondary-text-color);
 }
 
-.project-link {
+.projects__link {
   display: block;
   transition: box-shadow var(--timing-funktion);
 }
 
-.project-link:hover, .project-link:focus {
+.projects__link:hover, .projects__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.project-list-text {
+.projects__thumb {
   position: relative;
   overflow: hidden;
 }
 
-.overlay-list-text {
+.projects__overlay {
   position: absolute;
   font-style: normal;
   font-weight: normal;
@@ -497,8 +497,8 @@ img {
   opacity: 0;
 }
 
-.project-link:hover .overlay-list-text,
-.project-link:focus .overlay-list-text {
+.projects__link:hover .projects__overlay,
+.projects__link:focus .projects__overlay {
   transform: translateY(-100%);
   opacity: 1;
 }
