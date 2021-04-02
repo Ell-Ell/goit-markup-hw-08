@@ -160,7 +160,7 @@ img {
   color: var(--secondary-text-color);
 }
 
-.contacts-tel__item {
+.contacts__item--tel {
   margin-right: 50px;
 }
 
