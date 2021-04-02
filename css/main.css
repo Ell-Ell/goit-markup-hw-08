@@ -560,7 +560,7 @@ img {
   position: relative;
 }
 
-.about .about__item:not(:last-child) {
+.about .about__item:not(:first-child) {
   margin-left: 30px;
 }
 
