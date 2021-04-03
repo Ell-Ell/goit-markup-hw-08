@@ -83,17 +83,6 @@ img {
   background-color: var(--primary-white-color);
 }
 
-.header .active::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 4px;
-  background: var(--accent-color);
-  border-radius: 2px;
-}
-
 .header__container {
   min-height: 80px;
   display: flex;
@@ -151,6 +140,17 @@ img {
 
 .navigation__link--active {
   color: var(--accent-color);
+}
+
+.navigation__link--active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  background: var(--accent-color);
+  border-radius: 2px;
 }
 
 .navigation__item:not(:last-child) {
