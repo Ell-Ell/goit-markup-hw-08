@@ -1,8 +1,8 @@
-.web-social-icon__list {
+.social-icon__list {
   display: flex;
   justify-content: center;
 }
-.web-social__link {
+.social-icon__link {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -27,11 +27,11 @@
   }
 }
 
-.web-social-icon__item {
+.social-icon__item {
   &:not(:last-child) {
     margin-right: 10px;
   }
 }
-.web-social-icon__pict {
+.social-icon__pict {
   fill: var(--primary-white-color);
 }
