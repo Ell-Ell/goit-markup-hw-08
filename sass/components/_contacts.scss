@@ -17,8 +17,7 @@
     color: var(--secondary-text-color);
   }
 }
-
-.contacts__item--tel {
+.contacts__item:first-child {
   margin-right: 50px;
 }
 

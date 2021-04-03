@@ -12,16 +12,16 @@
   color: #afb1b8;
   transition: color var(--timing-funktion),
     background-color var(--timing-funktion);
-  .team__deskription &:hover,
-  .team__deskription &:focus {
+  .team__deskr &:hover,
+  .team__deskr &:focus {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
   }
-  .footer__social-links &:hover,
-  .footer__social-links &:focus {
+  .footer-social__box &:hover,
+  .footer-social__box &:focus {
     background-color: var(--accent-color);
   }
-  .footer__social-links & {
+  .footer-social__box & {
     background-color: rgba(255, 255, 255, 0.1);
     color: var(--primary-white-color);
   }

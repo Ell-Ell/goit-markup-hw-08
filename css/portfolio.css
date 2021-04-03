@@ -130,7 +130,7 @@ img {
   color: var(--accent-color);
 }
 
-.active {
+.navigation__link--active {
   color: var(--accent-color);
 }
 
@@ -160,7 +160,7 @@ img {
   color: var(--secondary-text-color);
 }
 
-.contacts__item--tel {
+.contacts__item:first-child {
   margin-right: 50px;
 }
 
@@ -238,18 +238,18 @@ img {
   transition: color var(--timing-funktion), background-color var(--timing-funktion);
 }
 
-.team__deskription .web-social__link:hover,
-.team__deskription .web-social__link:focus {
+.team__deskr .web-social__link:hover,
+.team__deskr .web-social__link:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
 
-.footer__social-links .web-social__link:hover,
-.footer__social-links .web-social__link:focus {
+.footer-social__box .web-social__link:hover,
+.footer-social__box .web-social__link:focus {
   background-color: var(--accent-color);
 }
 
-.footer__social-links .web-social__link {
+.footer-social__box .web-social__link {
   background-color: rgba(255, 255, 255, 0.1);
   color: var(--primary-white-color);
 }
@@ -318,11 +318,11 @@ img {
   color: #ffffff;
 }
 
-.describe__box {
+.footer-form__box {
   display: flex;
 }
 
-.describe__us {
+.footer-form__input {
   display: flex;
   align-items: center;
   height: 50px;
@@ -337,18 +337,18 @@ img {
   outline: none;
 }
 
-.describe__us::placeholder {
+.footer-form__input::placeholder {
   color: rgba(255, 255, 255, 0.6);
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
 }
 
-.describe-form {
+.footer__form {
   margin-left: auto;
 }
 
-.describe__title {
+.footer-form__title {
   display: block;
   font-style: normal;
   font-size: 14px;
@@ -359,7 +359,7 @@ img {
   color: var(--primary-white-color);
 }
 
-.describe__button {
+.footer-form__button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -378,12 +378,12 @@ img {
   cursor: pointer;
 }
 
-.describe__icon {
+.footer-form__icon {
   fill: var(--primary-white-color);
   margin-left: 10px;
 }
 
-.join-us {
+.footer-social__descr {
   font-weight: 700;
   display: block;
   font-size: 14px;
@@ -394,19 +394,19 @@ img {
   font-style: bold;
 }
 
-.filter-portfolio {
+.filters {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: var(--primary-white-color);
 }
 
-.filter-portfolio__list {
+.filters__list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.filter-portfolio__button {
+.filters__button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -421,14 +421,14 @@ img {
   transition: color var(--timing-funktion), background-color var(--timing-funktion), box-shadow var(--timing-funktion);
 }
 
-.filter-portfolio__button:hover, .filter-portfolio__button:focus {
+.filters__button:hover, .filters__button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   cursor: pointer;
 }
 
-.filter-portfolio__item:not(:last-child) {
+.filters__item:not(:last-child) {
   margin-right: 8px;
 }
 

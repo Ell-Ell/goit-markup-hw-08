@@ -103,7 +103,7 @@ img {
   padding: 0 15px;
 }
 
-.section-title {
+.section__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -149,7 +149,7 @@ img {
   color: var(--accent-color);
 }
 
-.active {
+.navigation__link--active {
   color: var(--accent-color);
 }
 
@@ -179,7 +179,7 @@ img {
   color: var(--secondary-text-color);
 }
 
-.contacts__item--tel {
+.contacts__item:first-child {
   margin-right: 50px;
 }
 
@@ -257,18 +257,18 @@ img {
   transition: color var(--timing-funktion), background-color var(--timing-funktion);
 }
 
-.team__deskription .web-social__link:hover,
-.team__deskription .web-social__link:focus {
+.team__deskr .web-social__link:hover,
+.team__deskr .web-social__link:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
 
-.footer__social-links .web-social__link:hover,
-.footer__social-links .web-social__link:focus {
+.footer-social__box .web-social__link:hover,
+.footer-social__box .web-social__link:focus {
   background-color: var(--accent-color);
 }
 
-.footer__social-links .web-social__link {
+.footer-social__box .web-social__link {
   background-color: rgba(255, 255, 255, 0.1);
   color: var(--primary-white-color);
 }
@@ -373,11 +373,11 @@ img {
   color: #ffffff;
 }
 
-.describe__box {
+.footer-form__box {
   display: flex;
 }
 
-.describe__us {
+.footer-form__input {
   display: flex;
   align-items: center;
   height: 50px;
@@ -392,18 +392,18 @@ img {
   outline: none;
 }
 
-.describe__us::placeholder {
+.footer-form__input::placeholder {
   color: rgba(255, 255, 255, 0.6);
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
 }
 
-.describe-form {
+.footer__form {
   margin-left: auto;
 }
 
-.describe__title {
+.footer-form__title {
   display: block;
   font-style: normal;
   font-size: 14px;
@@ -414,7 +414,7 @@ img {
   color: var(--primary-white-color);
 }
 
-.describe__button {
+.footer-form__button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -433,12 +433,12 @@ img {
   cursor: pointer;
 }
 
-.describe__icon {
+.footer-form__icon {
   fill: var(--primary-white-color);
   margin-left: 10px;
 }
 
-.join-us {
+.footer-social__descr {
   font-weight: 700;
   display: block;
   font-size: 14px;
@@ -535,7 +535,7 @@ img {
   color: var(--title-text-color);
 }
 
-.feature__list .feature__textabout {
+.feature__list .feature__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -626,7 +626,7 @@ img {
   background-color: var(--primary-white-color);
 }
 
-.team__deskription {
+.team__deskr {
   padding: 30px 32px;
   text-align: center;
 }
@@ -635,19 +635,19 @@ img {
   fill: currentColor;
 }
 
-.regular-clients {
+.clients {
   display: flex;
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.regular-clients__list {
+.clients__list {
   display: flex;
   align-items: center;
   margin-left: -30px;
 }
 
-.regular-clients__item {
+.clients__item {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -655,7 +655,7 @@ img {
   flex-basis: calc(100% / 6 - 30px);
 }
 
-.regular-clients__link {
+.clients__link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -667,12 +667,12 @@ img {
   transition: color var(--timing-funktion), border-color var(--timing-funktion);
 }
 
-.regular-clients__link:hover, .regular-clients__link:focus {
+.clients__link:hover, .clients__link:focus {
   border-color: var(--accent-color);
   color: var(--accent-color);
 }
 
-.regular-clients__logo {
+.clients__logo {
   fill: currentColor;
 }
 

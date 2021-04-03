@@ -1,23 +1,23 @@
-.regular-clients {
+.clients {
   display: flex;
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.regular-clients__list {
+.clients__list {
   display: flex;
   align-items: center;
   margin-left: -30px;
 }
 
-.regular-clients__item {
+.clients__item {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-left: 30px;
   flex-basis: calc(100% / 6 - 30px);
 }
-.regular-clients__link {
+.clients__link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -33,6 +33,6 @@
     color: var(--accent-color);
   }
 }
-.regular-clients__logo {
+.clients__logo {
   fill: currentColor;
 }

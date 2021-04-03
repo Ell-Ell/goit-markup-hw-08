@@ -1,7 +1,7 @@
-.describe__box {
+.footer-form__box {
   display: flex;
 }
-.describe__us {
+.footer-form__input {
   display: flex;
   align-items: center;
   height: 50px;
@@ -22,10 +22,10 @@
   }
 }
 
-.describe-form {
+.footer__form {
   margin-left: auto;
 }
-.describe__title {
+.footer-form__title {
   display: block;
   font-style: normal;
   font-size: 14px;
@@ -35,7 +35,7 @@
   margin-bottom: 20px;
   color: var(--primary-white-color);
 }
-.describe__button {
+.footer-form__button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,11 +53,11 @@
   border-radius: 4px;
   cursor: pointer;
 }
-.describe__icon {
+.footer-form__icon {
   fill: var(--primary-white-color);
   margin-left: 10px;
 }
-.join-us {
+.footer-social__descr {
   font-weight: 700;
   display: block;
   font-size: 14px;

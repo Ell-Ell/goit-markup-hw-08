@@ -26,7 +26,7 @@
                         <a href="./index.html" class="navigation__link link">Студия</a>
                     </li>
                     <li class="navigation__item">
-                        <a href="./portfolio.html" class="navigation__link link active">Портфолио</a>
+                        <a href="./portfolio.html" class="navigation__link navigation__link--active link">Портфолио</a>
                     </li>
                     <li class="navigation__item">
                         <a href="" class="navigation__link link">Контакты</a>
@@ -36,7 +36,7 @@
             <!--конец навигации-->
             <!--контакты-->
             <ul class="contacts__list list">
-                <li class="contacts__item--tel"><a class="contacts__link link" href="tel:380961111111">
+                <li class="contacts__item"><a class="contacts__link link" href="tel:380961111111">
                         <svg class="contacts__icon" width="10" height="16">
                             <use href="./images/sprite.svg#smartphone"></use>
                         </svg>
@@ -56,25 +56,25 @@
 <!--Portfolio-->
     <!-- FILTER -навигация фильтра -->
     
-    <section class="filter-portfolio">
+    <section class="filters">
         <div class="container">
         <h1 class="visually-hidden">Портфолио</h1>
 
-         <ul class="filter-portfolio__list list">
-            <li class="filter-portfolio__item">
-                <button class="filter-portfolio__button" type="button">Все</button>
+         <ul class="filters__list list">
+            <li class="filters__item">
+                <button class="filters__button" type="button">Все</button>
             </li>
             <li class="filter-portfolio__item">
-                <button class="filter-portfolio__button" type="button">Веб-сайты</button>
+                <button class="filters__button" type="button">Веб-сайты</button>
             </li>
-            <li class="filter-portfolio__item">
-                <button class="filter-portfolio__button" type="button">Приложения</button>
+            <li class="filters__item">
+                <button class="filters__button" type="button">Приложения</button>
             </li>
-            <li class="filter-portfolio__item">
-                <button class="filter-portfolio__button" type="button">Дизайн</button>
+            <li class="filters__item">
+                <button class="filters__button" type="button">Дизайн</button>
             </li>
-            <li class="filter-portfolio__item">
-                <button class="filter-portfolio__button" type="button">Маркетинг</button>
+            <li class="filters__item">
+                <button class="filters__button" type="button">Маркетинг</button>
             </li>
         </ul>
      
@@ -254,8 +254,8 @@
                 </ul>
             </address>
         </div>
-        <div class="footer__social-links">
-            <b class="join-us">Присоединяйтесь</b>
+        <div class="footer-social__box">
+            <b class="footer-social__descr">Присоединяйтесь</b>
             <ul class="web-social-icon__list list">
                 <li class="web-social-icon__item">
                     <a class="web-social__link link" href="">
@@ -287,12 +287,12 @@
                 </li>
             </ul>
         </div>
-        <form action="#" class="describe-form">
+        <form action="#" class="footer__form">
             <!--method:post-->
-            <b class="describe__title">Подпишитесь на рассылку</b>
-            <div class="describe__box">
-                <input type="email" name="email-client" class="describe__us" required placeholder="E-mail">
-                <button class="describe__button" type="submit">Подписаться<svg class="describe__icon" width="24"
+            <b class="footer-form__title">Подпишитесь на рассылку</b>
+            <div class="footer-form__box">
+                <input type="email" name="email-client" class="footer-form__input" required placeholder="E-mail">
+                <button class="footer-form__button" type="submit">Подписаться<svg class="footer-form__icon" width="24"
                         height="24">
                         <use href="./images/sprite.svg#icon-send"></use>
                     </svg>
