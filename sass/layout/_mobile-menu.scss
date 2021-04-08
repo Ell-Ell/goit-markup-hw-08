@@ -63,3 +63,14 @@
     transition: color var(--timing-funktion);
   }
 }
+.mobile-menu-contacts__link {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+.mobile-menu-contacts__link--active {
+  font-size: 34px;
+  line-height: 1.18;
+  font-weight: 500;
+  color: var(--accent-color);
+}
