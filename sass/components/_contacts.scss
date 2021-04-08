@@ -1,7 +1,11 @@
 .contacts__list {
   display: none;
 }
-
+@media screen and (min-width: 768px) {
+  .contacts__list {
+    display: block;
+  }
+}
 // .contacts__list {
 //   margin-left: auto;
 //   display: flex;
