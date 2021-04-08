@@ -96,6 +96,9 @@ img {
 .header__container {
   padding-left: 15px;
   padding-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 @media screen and (min-width: 480px) {
@@ -121,6 +124,18 @@ img {
     margin: 0 auto;
     padding: 0 15px;
   }
+}
+
+.burger__button {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+}
+
+.burger__icon {
+  width: 40px;
+  height: 40px;
+  fill: #000000;
 }
 
 .navigation__list {
