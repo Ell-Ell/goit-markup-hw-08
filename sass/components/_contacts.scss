@@ -6,6 +6,12 @@
     display: block;
   }
 }
+@media screen and (min-width: 1200px) {
+  .contacts__list {
+    margin-left: auto;
+    display: flex;
+  }
+}
 // .contacts__list {
 //   margin-left: auto;
 //   display: flex;

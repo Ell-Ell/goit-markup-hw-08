@@ -4,6 +4,7 @@
 @import './base/container';
 
 @import './components/header';
+@import './components/mobile-menu';
 @import './components/section-title';
 @import './components/title';
 @import './components/navigation';
@@ -15,7 +16,6 @@
 @import './components/footer';
 @import './components/describe-us';
 
-@import './layout/mobile-menu';
 @import './layout/hero';
 @import './layout/main-btn';
 @import './layout/feature';

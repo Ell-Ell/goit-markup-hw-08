@@ -49,6 +49,7 @@
     margin-bottom: 32px;
   }
 }
+
 .mobile-menu__link {
   position: relative;
   color: var(--title-text-color);
@@ -64,13 +65,22 @@
   }
 }
 .mobile-menu-contacts__link {
+  font-family: Roboto;
   font-weight: 500;
+  font-size: 24px;
+  line-height: 1.17;
   letter-spacing: 0.02em;
-  color: var(--secondary-text-color);
+  color: #757575;
 }
 .mobile-menu-contacts__link--active {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
   font-size: 34px;
   line-height: 1.18;
-  font-weight: 500;
+  letter-spacing: 0.02em;
   color: var(--accent-color);
+}
+.mobile-menu-networks__list {
+  margin-top: 64px;
 }
