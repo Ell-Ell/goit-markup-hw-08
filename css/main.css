@@ -173,6 +173,7 @@ img {
   transition: -webkit-transform 2950ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 2950ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 2950ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 2950ms cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: scroll;
 }
 
 .is-open {
@@ -202,7 +203,7 @@ img {
 }
 
 .mobile-menu__list {
-  margin-bottom: 302px;
+  margin-bottom: 290px;
 }
 
 .mobile-menu__item {
@@ -228,6 +229,10 @@ img {
   color: var(--accent-color);
   -webkit-transition: color var(--timing-funktion);
   transition: color var(--timing-funktion);
+}
+
+.mobile-menu-contacts__list {
+  margin-bottom: 64px;
 }
 
 .mobile-menu-contacts__item:not(:last-child) {
@@ -258,7 +263,6 @@ img {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 48px;
-  margin-top: 64px;
 }
 
 .mobile-menu-networks__link {
