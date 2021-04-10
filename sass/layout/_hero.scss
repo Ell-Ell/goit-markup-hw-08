@@ -21,7 +21,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url('../../images/FotoStudio/Fotomobile/Hero/Headerimg.jpg');
+    url('../images/foto/fotomobile/hero/img.jpg');
 
   @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
@@ -31,7 +31,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url('../../images/FotoStudio/Fotomobile/Hero/Headerimg@2x.jpg');
+      url('../images/foto/fotomobile/hero/img@2.jpg');
   }
 
   @media screen and (min-width: 768px) {
@@ -42,7 +42,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url('../images/FotoStudio/Fotomobile/img..jpg');
+      url('..jpg');
 
     @media screen and (min-device-pixel-ratio: 2),
       screen and (min-resolution: 192dpi),
