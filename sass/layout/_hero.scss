@@ -79,25 +79,6 @@
   }
 }
 
-.hero__btn {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  color: var(--primary-white-color);
-  & {
-    display: block;
-    margin: 0 auto;
-    transition: var(--timing-funktion);
-
-    &:hover,
-    &:focus {
-      background-color: #188ce8;
-    }
-  }
-}
 .hero__title {
   max-width: 360px;
   margin-bottom: 30px;
@@ -110,6 +91,7 @@
   font-size: 26px;
   line-height: 1.62;
   font-weight: 900;
+  margin-bottom: 30px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -118,8 +100,8 @@
     padding-bottom: 200px;
     &__title {
       margin: auto;
-      max-width: 696px;
       margin-bottom: 30px;
+      max-width: 696px;
       font-weight: 900;
       font-size: 44px;
       line-height: 1.36;
