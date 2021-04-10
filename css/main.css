@@ -824,14 +824,57 @@ img {
   padding-bottom: 118px;
   margin: 0 auto;
   background-color: #2f303a;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/herofon.jpg");
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/herofon.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
-.hero .hero__btn {
+.hero__overlay {
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 480px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/");
+  background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/");
+}
+
+@media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+  .hero__overlay {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/main/mobile/hero-bg-mobile@2x.jpg);
+    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main/mobile/hero-bg-mobile@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero__overlay {
+    max-width: 768px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/main/tablet/hero-bg-tablet.jpg);
+    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main/tablet/hero-bg-tablet.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .hero__overlay {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/main/tablet/hero-bg-tablet@2x.jpg);
+    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main/tablet/hero-bg-tablet@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero__overlay {
+    max-width: 1600px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/main/desktop/hero-bg-desktop.jpg);
+    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main/desktop/hero-bg-desktop.jpg);
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .hero__overlay {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/main/desktop/hero-bg-desktop@2x.jpg);
+    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/main/desktop/hero-bg-desktop@2x.jpg);
+  }
+}
+
+.hero__btn {
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
@@ -841,18 +884,18 @@ img {
   color: var(--primary-white-color);
 }
 
-.hero .hero__btn {
+.hero__btn {
   display: block;
   margin: 0 auto;
   -webkit-transition: var(--timing-funktion);
   transition: var(--timing-funktion);
 }
 
-.hero .hero__btn:hover, .hero .hero__btn:focus {
+.hero__btn:hover, .hero__btn:focus {
   background-color: #188ce8;
 }
 
-.hero .hero__title {
+.hero__title {
   max-width: 360px;
   margin-bottom: 30px;
   margin: 0 auto;
@@ -883,19 +926,9 @@ img {
     text-transform: uppercase;
     color: var(--primary-white-color);
   }
-}
-
-@media screen and (min-width: 1200px) {
   .hero__overlay {
     max-width: 1600px;
     height: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/herofon.jpg");
-    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/herofon.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
   }
 }
 
