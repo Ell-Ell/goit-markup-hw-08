@@ -1038,6 +1038,18 @@ img {
   min-width: 270px;
 }
 
+@media screen and (max-width: 1199px) {
+  .about {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .about {
+    display: block;
+  }
+}
+
 .about {
   padding-bottom: 94px;
 }
