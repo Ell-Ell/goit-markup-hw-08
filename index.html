@@ -198,7 +198,18 @@
             <h2 class="section__title">Наша команда</h2>
             <ul class="team__list list">
                 <li class="team__item">
-                    <img src="./images/img.jpg" alt="Игорь Демьяненко Дизайнер Продукции" width="270" height="260">
+                    <picture class="picture">
+                        <source srcset="../images/foto/desktop/img.webp 1x, ./images/team/desktop/img@2x.webp 2x" media="(min-width: 1200px)"
+                            type="image/webp">
+                        <source srcset="./images/team/desktop/img.jpg 1x, ./images/team/desktop/img@2x.jpg 2x" media="(min-width: 1200px)">
+                        <source srcset="./images/team/tablet/img.webp 1x, ./images/team/tablet/img@2x.webp 2x" media="(min-width: 768px)"
+                            type="image/webp">
+                        <source srcset="./images/team/tablet/img.jpg 1x, ./images/team/tablet/img@2x.jpg 2x" media="(min-width: 768px)">
+                        <source srcset="./images/team/mobile/img.webp 1x, ./images/team/mobile/img@2x.webp 2x" media="(min-width: 320px)"
+                            type="image/webp">
+                        <source srcset="./images/team/mobile/img.jpg 1x, ./images/team/mobile/img@2x.jpg 2x" media="(min-width: 320px)">
+                        <img src="./images/team/desktop/img.jpg" alt="Игорь Демьяненко Дизайнер Продукции" />
+                    </picture>
                     <div class="team__deskr">
                     <h3 class="title">Игорь Демьяненко</h3>
                     <p class="team__position" lang="en">Product Designer</p>
