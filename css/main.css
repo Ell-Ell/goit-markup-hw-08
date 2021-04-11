@@ -771,12 +771,6 @@ img {
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .footer__subscription {
-    width: 45%;
-  }
-}
-
 .address {
   font-style: normal;
   line-height: 1.71;
