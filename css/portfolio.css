@@ -487,6 +487,15 @@ img {
   }
 }
 
+.title {
+  font-weight: 500;
+  color: var(--title-text-color);
+  font-size: 16px;
+  line-height: 1.19;
+  margin-bottom: 10px;
+  letter-spacing: 0.03em;
+}
+
 .header__logo {
   color: var(--accent-color);
   font-family: var(--secondery-font);
