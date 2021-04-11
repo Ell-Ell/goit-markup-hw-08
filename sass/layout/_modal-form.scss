@@ -1,3 +1,12 @@
+.modal {
+  width: 450px;
+  height: 609px;
+  @media screen and (min-width: 1200px) {
+    min-height: 581px;
+    max-width: 528px;
+  }
+}
+
 .modal-close__icon {
   fill: currentColor;
   width: 18px;
@@ -12,6 +21,11 @@
 .modal-form {
   display: flex;
   flex-direction: column;
+  height: 609px;
+  @media screen and (min-width: 1200px) {
+    max-width: 528px;
+    min-height: 581px;
+  }
 }
 
 .form__title {
@@ -88,7 +102,7 @@
 .modal-form__checktext {
   display: flex;
   align-items: center;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
@@ -101,6 +115,7 @@
     margin-right: 8px;
     cursor: pointer;
   }
+
   .modal-form__term:checked + &::before {
     background-color: var(--accent-color);
     background-image: url('../images/check-white.svg');
@@ -114,8 +129,11 @@
 }
 
 .modal-check-link {
+  font-size: 12px;
+  letter-spacing: 0.03em;
   color: var(--accent-color);
 }
+
 .modal-form__btn {
   align-self: center;
   min-width: 200px;

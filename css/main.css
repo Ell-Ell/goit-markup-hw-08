@@ -1361,6 +1361,18 @@ img {
   fill: currentColor;
 }
 
+.modal {
+  width: 450px;
+  height: 609px;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal {
+    min-height: 581px;
+    max-width: 528px;
+  }
+}
+
 .modal-close__icon {
   fill: currentColor;
   width: 18px;
@@ -1381,6 +1393,14 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  height: 609px;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal-form {
+    max-width: 528px;
+    min-height: 581px;
+  }
 }
 
 .form__title {
@@ -1483,7 +1503,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
@@ -1513,6 +1533,8 @@ img {
 }
 
 .modal-check-link {
+  font-size: 12px;
+  letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 
