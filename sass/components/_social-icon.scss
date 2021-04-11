@@ -19,11 +19,11 @@
     background-color: var(--accent-color);
     color: var(--primary-white-color);
   }
-  .footer-social__box &:hover,
-  .footer-social__box &:focus {
+  .footer-social &:hover,
+  .footer-social &:focus {
     background-color: var(--accent-color);
   }
-  .footer-social__box & {
+  .footer-social & {
     background-color: rgba(255, 255, 255, 0.1);
     color: var(--primary-white-color);
   }

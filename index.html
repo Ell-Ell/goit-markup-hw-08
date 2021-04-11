@@ -104,7 +104,7 @@
             <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
             <button type="button" class="hero__btn" data-modal-open>Заказать услугу</button>
                 </section>
-                </div>
+                
          
          <section class="feature">
             <div class="container">
@@ -457,18 +457,19 @@
     <footer class="footer">
         <div class=" footer__container container">
             <div class="footer__box">
+                <div class="footer__contacts">
             <a href="./index.html" class="logo" lang="en">Web<span class="logo__footer">Studio</span></a>
             <address class="address">
                 <ul class="address__list list">
     
-                    <li class="address__item--map"><a class="address__link link" href="https://goo.gl/maps/gdBBpiUcLbtsfD2N9"
+                    <li class="address__item address__item--map"><a class="address__link link" href="https://goo.gl/maps/gdBBpiUcLbtsfD2N9"
                             target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
-                    <li class="address__item--contact"><a class="link" href="mailto:info@example.com">info@example.com</a></li>
-                    <li class="address__item--contact"><a class="link" href="tel:380961111111">+38 096 111 11 11</a></li>
+                    <li class="address__item address__item--contact"><a class="address__link--contact link" href="mailto:info@example.com">info@example.com</a></li>
+                    <li class="address__item address__item--contact"><a class="address__link--contact link" href="tel:380961111111">+38 096 111 11 11</a></li>
                 </ul>
             </address>
         </div>
-        <div class="footer-social__box">
+        <div class="footer-social">
             <b class="footer-social__descr">Присоединяйтесь</b>
             <ul class="social-icon__list list">
                 <li class="social-icon__item">
@@ -501,10 +502,12 @@
                 </li>
             </ul>
         </div>
+            </div>
+            <div class="footer__subscription">
         <form action="#" class="footer-form">
             <!--method:post-->
             <b class="footer-form__title">Подпишитесь на рассылку</b>
-            <div class="footer-form__box">
+            <div class="form">
                 <input type="email" name="email-client" class="footer-form__input" required placeholder="E-mail">
                 <button class="footer-form__button" type="submit">Подписаться<svg class="footer-form__icon" width="24" height="24">
                     <use href="./images/sprite.svg#icon-send"></use>
@@ -513,6 +516,8 @@
             </div>
              </form>
             </div>
+        </div>
+            
     </footer>
     <!--Модалочка-->
     <div class="backdrop is-hidden" data-modal>
@@ -556,6 +561,7 @@
        <input type="checkbox" id="user-term" name="user-term" class="modal-form__term visually-hidden">
        <label for="user-term" class="modal-form__checktext">Соглашаюсь с рассылкой и принимаю&nbsp; <a class="modal-check-link" href="">Условия договора</a></label>
        <button type="submit" class="modal-form__btn">Отправить</button>
+    
         </form>
         </div>
     </div>

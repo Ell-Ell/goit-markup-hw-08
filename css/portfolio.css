@@ -398,12 +398,12 @@ img {
   color: var(--primary-white-color);
 }
 
-.footer-social__box .social-icon__link:hover,
-.footer-social__box .social-icon__link:focus {
+.footer-social .social-icon__link:hover,
+.footer-social .social-icon__link:focus {
   background-color: var(--accent-color);
 }
 
-.footer-social__box .social-icon__link {
+.footer-social .social-icon__link {
   background-color: rgba(255, 255, 255, 0.1);
   color: var(--primary-white-color);
 }
@@ -435,15 +435,7 @@ img {
 }
 
 .footer {
-  background-color: var(--footer-background-color);
-}
-
-.footer .address__item {
-  color: #ffffff;
-}
-
-.footer .address__item .address__item--map .address__link {
-  color: #ffffff;
+  background-color: #2f303a;
 }
 
 .footer__container {
@@ -509,73 +501,184 @@ img {
   }
 }
 
-.footer-form__box {
+.footer__contacts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.footer-form__input {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 50px;
-  padding-left: 16px;
-  margin-right: 12px;
-  min-width: 358px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
-  background-color: transparent;
+  margin-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__contacts {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__contacts {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__subscription {
+    width: 45%;
+  }
+}
+
+.address {
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+}
+
+.address .link {
+  -webkit-transition: color var(--timing-funktion);
+  transition: color var(--timing-funktion);
+}
+
+.address__link {
+  color: #ffffff;
+}
+
+.address__item {
+  margin-bottom: 8px;
+}
+
+.address__item--contact {
+  text-align: center;
+}
+
+.address__item--contact:hover, .address__item--contact:focus {
+  color: var(--accent-color);
+  -webkit-transition: color var(--timing-funktion);
+  transition: color var(--timing-funktion);
+}
+
+@media screen and (min-width: 1200px) {
+  .address__item--contact {
+    text-align: left;
+  }
+}
+
+.address__link--contact {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media screen and (min-width: 1200px) {
+  .form {
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
+
+.footer-social__descr {
+  font-weight: 700;
+  display: block;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
   color: var(--primary-white-color);
-  outline: none;
-}
-
-.footer-form__input::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-}
-
-.footer-form__input:-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-}
-
-.footer-form__input::-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-}
-
-.footer-form__input::placeholder {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-}
-
-.footer-form {
-  margin-left: auto;
 }
 
 .footer-form__title {
   display: block;
-  font-style: normal;
+  font-weight: 700;
+  text-align: center;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-top: 60px;
   margin-bottom: 20px;
   color: var(--primary-white-color);
+}
+
+.footer-form__input {
+  min-width: 100%;
+  height: 50px;
+  padding: 15px 0 15px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+  outline: none;
+  color: var(--primary-white-color);
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-form__input {
+    margin-bottom: 8px;
+    margin-right: 12px;
+  }
+}
+
+.footer-form__input::-webkit-input-placeholder {
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-form__input:-ms-input-placeholder {
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-form__input::-ms-input-placeholder {
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-form__input::placeholder {
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-form__input:focus, .footer-form__input:active {
+  border: 1px solid #fff;
+  -webkit-transition: border var(--timing-funktion);
+  transition: border var(--timing-funktion);
 }
 
 .footer-form__button {
@@ -607,17 +710,6 @@ img {
 .footer-form__icon {
   fill: var(--primary-white-color);
   margin-left: 10px;
-}
-
-.footer-social__descr {
-  font-weight: 700;
-  display: block;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  color: var(--primary-white-color);
-  font-style: bold;
 }
 
 .filters {
