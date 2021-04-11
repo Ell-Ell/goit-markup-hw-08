@@ -601,6 +601,14 @@ img {
   color: var(--primary-white-color);
 }
 
+@media screen and (min-width: 1200px) {
+  .footer-social__descr {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+}
+
 .footer-form__title {
   display: block;
   font-weight: 700;
@@ -615,6 +623,9 @@ img {
 
 @media screen and (min-width: 1200px) {
   .footer-form__title {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
     margin-top: 0;
   }
 }
