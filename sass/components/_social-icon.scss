@@ -1,14 +1,16 @@
 .social-icon__list {
   display: flex;
   justify-content: center;
+  margin-bottom: 24px;
 }
 .social-icon__link {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
+  width: 100%;
   border-radius: 50%;
-  width: 44px;
-  height: 44px;
+
   color: #afb1b8;
   transition: color var(--timing-funktion),
     background-color var(--timing-funktion);
@@ -28,6 +30,8 @@
 }
 
 .social-icon__item {
+  width: 44px;
+  height: 44px;
   &:not(:last-child) {
     margin-right: 10px;
   }
