@@ -438,6 +438,14 @@ img {
   background-color: var(--footer-background-color);
 }
 
+.footer .address__item {
+  color: #ffffff;
+}
+
+.footer .address__item .address__item--map .address__link {
+  color: #ffffff;
+}
+
 .footer__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -499,14 +507,6 @@ img {
     width: 50%;
     margin-bottom: 0;
   }
-}
-
-.footer .address__item {
-  color: #ffffff;
-}
-
-.footer .address__item .address__item--map .address__link {
-  color: #ffffff;
 }
 
 .footer-form__box {

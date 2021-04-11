@@ -1,5 +1,24 @@
 .footer {
   background-color: var(--footer-background-color);
+  .address {
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    .link {
+      color: var(--footer-link-color);
+      transition: color var(--timing-funktion);
+
+      &__item {
+        color: #ffffff;
+        &__item--map {
+          &__link {
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
   &__container {
     display: flex;
     flex-direction: column;
@@ -27,14 +46,6 @@
     @media screen and (min-width: 1200px) {
       width: 50%;
       margin-bottom: 0;
-    }
-  }
-  .address__item {
-    color: #ffffff;
-    .address__item--map {
-      .address__link {
-        color: #ffffff;
-      }
     }
   }
 }
