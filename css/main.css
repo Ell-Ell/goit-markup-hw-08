@@ -1119,9 +1119,6 @@ img {
 .feature__icons {
   border-radius: 4px;
   background-color: var(--button-back-color);
-}
-
-.feature__icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
