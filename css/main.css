@@ -1517,6 +1517,15 @@ img {
   color: #757575;
 }
 
+@media screen and (max-width: 424px) {
+  .modal-form__checktext {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .modal-form__checktext::before {
   content: ' ';
   display: block;

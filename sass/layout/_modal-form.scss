@@ -103,7 +103,11 @@
 }
 
 .modal-form__checktext {
+  @media screen and (max-width: 424px) {
+    flex-direction: column;
+  }
   display: flex;
+
   align-items: center;
   font-size: 12px;
   line-height: 1.71;
