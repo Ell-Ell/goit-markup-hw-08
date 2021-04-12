@@ -1517,7 +1517,7 @@ img {
   color: #757575;
 }
 
-@media screen and (max-width: 424px) {
+@media screen and (max-width: 449px) {
   .modal-form__checktext {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
