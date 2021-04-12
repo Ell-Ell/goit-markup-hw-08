@@ -430,7 +430,7 @@ img {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0.02em;
     color: #757575;
@@ -635,7 +635,7 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
-  .filters .container {
+  .filters {
     width: 1200px;
     padding-top: 94px;
     padding-bottom: 94px;
@@ -825,6 +825,10 @@ img {
         -ms-flex-align: baseline;
             align-items: baseline;
   }
+}
+
+.footer .social-icon__list {
+  margin-bottom: 0;
 }
 
 .footer__box {

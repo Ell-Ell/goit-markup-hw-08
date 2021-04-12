@@ -449,7 +449,7 @@ img {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0.02em;
     color: #757575;
@@ -708,6 +708,10 @@ img {
         -ms-flex-align: baseline;
             align-items: baseline;
   }
+}
+
+.footer .social-icon__list {
+  margin-bottom: 0;
 }
 
 .footer__box {
@@ -1139,8 +1143,7 @@ img {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    margin-bottom: -30px;
-    margin-left: -30px;
+    margin: -15px;
   }
 }
 
@@ -1164,12 +1167,6 @@ img {
   .feature__item {
     margin: 15px;
     width: calc((100% - 4 * 15px) / 2);
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .feature__item:not(:last-child) {
-    margin-right: 30px;
   }
 }
 
@@ -1241,6 +1238,14 @@ img {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .team .container {
+    width: 1200px;
+    padding-top: 94px;
+    padding-bottom: 94px;
   }
 }
 
