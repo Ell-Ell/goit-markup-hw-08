@@ -1364,8 +1364,14 @@ img {
 }
 
 .modal {
-  width: 450px;
+  width: 320px;
   height: 609px;
+}
+
+@media screen and (min-width: 450px) {
+  .modal {
+    width: 450px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
