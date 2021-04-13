@@ -9,6 +9,9 @@
     flex-wrap: nowrap;
   }
 }
+.footer__subscription {
+  margin-top: 60px;
+}
 .footer-social__descr {
   font-weight: 700;
   display: block;
@@ -29,7 +32,6 @@
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  margin-top: 60px;
   margin-bottom: 20px;
   color: var(--primary-white-color);
   @media screen and (min-width: 1200px) {
